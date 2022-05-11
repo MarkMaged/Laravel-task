@@ -29,7 +29,7 @@
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
                             aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi
                             vero voluptate voluptatibus possimus, veniam magni quis!</p>
-                        <a class="btn btn-primary" href="single.html">Read more →</a>
+                        <a class="btn btn-primary" href="{{route ('singel-blog')}}">Read more →</a>
                     </div>
                 </div>
                 <!-- Nested row for non-featured blog posts-->
@@ -44,7 +44,7 @@
                                 <h2 class="card-title h4">Post Title</h2>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     Reiciendis aliquid atque, nulla.</p>
-                                <a class="btn btn-primary" href="single.html">Read more →</a>
+                                <a class="btn btn-primary" href="{{route ('singel-blog')}}">Read more →</a>
                             </div>
                         </div>
                         <!-- Blog post-->
@@ -56,7 +56,7 @@
                                 <h2 class="card-title h4">Post Title</h2>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     Reiciendis aliquid atque, nulla.</p>
-                                <a class="btn btn-primary" href="single.html">Read more →</a>
+                                <a class="btn btn-primary" href="{{route ('singel-blog')}}">Read more →</a>
                             </div>
                         </div>
                     </div>
@@ -70,7 +70,7 @@
                                 <h2 class="card-title h4">Post Title</h2>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     Reiciendis aliquid atque, nulla.</p>
-                                <a class="btn btn-primary" href="single.html">Read more →</a>
+                                <a class="btn btn-primary" href="{{route ('singel-blog')}}">Read more →</a>
                             </div>
                         </div>
                         <!-- Blog post-->
@@ -82,7 +82,7 @@
                                 <h2 class="card-title h4">Post Title</h2>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam.</p>
-                                <a class="btn btn-primary" href="single.html">Read more →</a>
+                                <a class="btn btn-primary" href="{{route ('singel-blog')}}">Read more →</a>
                             </div>
                         </div>
                     </div>
