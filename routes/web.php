@@ -39,4 +39,4 @@ Route::get('/blogs', [BlogController::class , 'blogs'])->name('blogs');
 // Route::get('/singel-blog', function () {
 //     return view('singel-blog');
 // })->name('singel-blog');
-Route::get('/singel-blog' , [BlogController::class , 'singel_blog'])->name('singel-blog');
+Route::get('/blog/{id}' , [BlogController::class , 'singel_blog'])->name('singel-blog');
